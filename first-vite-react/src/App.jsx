@@ -9,7 +9,7 @@ function App() {
   }
 
   const hello3 = (name) => {
-    console.log("hello 3" + name);
+    console.log("hello 3 " + name);
   }
 
 
@@ -18,13 +18,7 @@ function App() {
       <div>
         <button onClick={hello1}>Click 1</button>
         <button onClick={hello2}>Click 2</button>
-        <button onClick={
-          () => {
-            hello3("Achini")
-          }
-
-        }>Click 3</button>
-
+        <button onClick={() => { hello3("Achini") }}>Click 3</button>
       </div>
     </>
   )

@@ -1,7 +1,7 @@
 function App() {
 
   return (
-    <h1>React page</h1>
+    <h1>Hi, React page</h1>
   )
 }
 

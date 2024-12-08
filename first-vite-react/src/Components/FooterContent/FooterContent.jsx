@@ -1,6 +1,7 @@
 import React from 'react'
 import './FooterContent.css'
 
+
 function FooterContent() {
   return (
     <div id="footercontent">

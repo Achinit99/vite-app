@@ -3,8 +3,7 @@ import './BodyContent.css'
 
 function BodyContent(props) {
   return (
-    <div id="bodycontent">
-      <h1>BodyContent</h1>
+    <div>
       {props.children}
     </div>
   )

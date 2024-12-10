@@ -3,7 +3,7 @@ import MenuLink from '../MenuLink/MenuLink'
 
 function Links() {
   return (
-    <div className="links">
+    <div>
       <MenuLink linktext="Home" linkurl="/" />
       <MenuLink linktext="Blog" linkurl="/blog" />
       <MenuLink linktext="About" linkurl="/about" />

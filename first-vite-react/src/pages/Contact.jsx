@@ -9,6 +9,9 @@ function Contact() {
         <HeaderContent />
         <BodyContent>
           <h3>Contact page</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur a quaerat culpa cumque
+            eaque autem, id, placeat quam eos, accusantium aspernatur cum quia. Repellat velit excepturi
+            necessitatibus voluptatum odio! Sint.</p>
         </BodyContent>
       </div>
     </div>

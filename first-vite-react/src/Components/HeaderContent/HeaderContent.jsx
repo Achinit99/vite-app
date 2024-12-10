@@ -1,14 +1,9 @@
 import React from 'react'
-import MenuLink from '../MenuLink/MenuLink'
+import Links from '../Links/Links'
 
 function HeaderContent() {
   return (
-    <div>
-      <MenuLink linkname="Home" url="#home" />
-      <MenuLink linkname="About" url="#about" />
-      <MenuLink linkname="Contact" url="#contact" />
-      <MenuLink linkname="Login" url="#login" />
-    </div>
+    <Links />
   )
 }
 

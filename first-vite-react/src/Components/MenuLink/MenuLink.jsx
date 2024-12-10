@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 
 function MenuLink(props) {
   return (
     <>
-      <a href={props.linkurl}>{props.linktext}</a>
+      <Link to={props.linkurl}>{props.linktext}</Link>
     </>
   )
 }

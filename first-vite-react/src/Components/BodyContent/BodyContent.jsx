@@ -1,9 +1,9 @@
 import React from 'react'
 
-function BodyContent() {
+function BodyContent(props) {
   return (
     <div>
-      Hi
+      {props.children}
     </div>
   )
 }

@@ -1,7 +1,9 @@
+import HeaderContent from "./Components/HeaderContent/HeaderContent";
+
 function App() {
   return (
     <>
-      <h3> This is My home page</h3>
+      <HeaderContent />
     </>
   )
 }
